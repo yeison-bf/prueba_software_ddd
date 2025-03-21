@@ -21,7 +21,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
 }
 
@@ -50,10 +50,12 @@ canvas {
     transition-duration: 0.2s;
     padding: 10px;
     border-radius: 8px;
-    background-color: greenyellow; 
-    color: black; 
+    background-color: rgb(26, 4, 153); 
+    color: rgb(255, 255, 255); 
     border: 2px solid green;
     cursor: pointer;
+    
+   
 }
   
 .Button:hover{
@@ -69,14 +71,37 @@ canvas {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    /* height: 100vh; */
+    flex-direction: column;
 }
+
+.Contenedor-Binicio label{
+  color: white;
+  font-size: 20px;
+}
+
+
+.Contenedor-Binicio input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 8px;
+}
+
+
 
 .Con-Emergente{
     align-items: center;
     text-align: center;
     padding: 20px;
     display: flex;
+    width: 600px;
+    height: 600px;
 }
+
+#res{
+    font-size: 30px;
+}
+
 
 .cua{
     display: none;
